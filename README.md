@@ -15,6 +15,7 @@
 - `DB_PASS` - Database password
 - `DB_USER` - Username of database's owner
 - `DB_NAME` - Database name
+- `DB_ENGINE` - See example in .env_example
 
 ## Copyright
 - Copyright (©) 2023 by [Uliana Diakova](https://github.com/xredian) as test task for [Mitek Systems](https://www.miteksystems.com/)
