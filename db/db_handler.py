@@ -12,7 +12,7 @@ class DataHandler:
         self.engine, self.audio_messages = setup_db(env)
         log_msg('success', 'PSQL: Connected to PostgreSQL')
 
-    def insert_data(self, uid: int, audio_message: str):
+    def insert_data(self, uid: str, audio_message: str):
         """
         Create new user in PostgreSQL
 
@@ -22,7 +22,7 @@ class DataHandler:
         """
         query = self.audio_messages.insert()
         values = {"uid": uid, "audio_message": audio_message}
-        self.engine.execute(query, values)
+        self.engine.connect().execute(query, values)
         log_msg('info', f'{uid}: Table audio_messages updated with new values '
                         f'in PostgreSQl')
 
