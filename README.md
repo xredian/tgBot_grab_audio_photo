@@ -1,4 +1,4 @@
-# Audio messages and photo Saver Telegam Bot
+# Audio messages and photo Saver Telegram Bot
 **Telegram bot saving audio messages and photos with faces.**
 - Find it on Telegram as [Grab audio&photo](https://t.me/audio_photo_bot)
 
