@@ -1,6 +1,6 @@
 from logger import log_msg
 from sqlalchemy import create_engine, MetaData
-from sqlalchemy import Integer, Table, Column
+from sqlalchemy import Table, Column
 from sqlalchemy.dialects.postgresql import VARCHAR
 
 
@@ -16,7 +16,7 @@ def setup_db(env):
     audio_messages = Table(
         'audio_messages',
         metadata,
-        Column('uid', Integer, primary_key=True),
+        Column('uid', VARCHAR(255), primary_key=True),
         Column('audio_message', VARCHAR(255)),
     )
 
