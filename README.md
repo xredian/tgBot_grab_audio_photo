@@ -1,2 +1,19 @@
-# tgBot_grab_audio_photo
-Telegram bot that can : 1. Save audio messages from dialogs to a database by user IDs. 2. Convert all audio messages to wav format with sampling rate 16kHz. 3. Determines if there is a face in the sent photos or not, saves only the ones where there is a face.
+# Audio messages and photo Saver Talegam Bot
+**Telegram bot saving audio messages and photos with faces.**
+- Find it on Telegram as [Grab audio&photo](https://t.me/audio_photo_bot)
+
+## Features
+- [ ] Save audio messages from dialogs to a database by user IDs.
+- [ ] Convert all audio messages to wav format with sampling rate 16kHz.
+- [ ] Determines if there is a face in the sent photos or not, saves only the ones where there is a face.
+
+### Configuration Values
+- `TOKEN` - Get it by contacting to [BotFather](https://t.me/botfather)
+- `DB_HOST` - Host for database
+- `DB_PORT` - By default 5432 or any another
+- `DB_PASS` - Database password
+- `DB_USER` - Username of database's owner
+- `DB_NAME` - Database name
+
+## Copyright
+- Copyright (©) 2023 by [Uliana Diakova](https://github.com/xredian) as test task for [Mitek Systems](https://www.miteksystems.com/)
