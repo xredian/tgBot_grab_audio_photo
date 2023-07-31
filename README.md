@@ -1,11 +1,12 @@
-# Audio messages and photo Saver Talegam Bot
+# Audio messages and photo Saver Telegram Bot
 **Telegram bot saving audio messages and photos with faces.**
 - Find it on Telegram as [Grab audio&photo](https://t.me/audio_photo_bot)
 
 ## Features
-- [ ] Save audio messages from dialogs to a database by user IDs.
-- [ ] Convert all audio messages to wav format with sampling rate 16kHz.
-- [ ] Determines if there is a face in the sent photos or not, saves only the ones where there is a face.
+- [X] Save logs about saved audio messages from dialogs to a database by user IDs.
+- [X] Save audio messages to a disk by user UDs
+- [X] Convert all audio messages to wav format with sampling rate 16kHz.
+- [X] Determines if there is a face in the sent photos or not, saves only the ones where there is a face.
 
 ### Configuration Values
 - `TOKEN` - Get it by contacting to [BotFather](https://t.me/botfather)
